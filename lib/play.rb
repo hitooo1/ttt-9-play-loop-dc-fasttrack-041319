@@ -40,6 +40,7 @@ end
 def play(board)
 9.times do
   turn(board)
+end
   until turn <= 9 
   return display_board(board)
 end
